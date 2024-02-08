@@ -2,8 +2,6 @@
 
 $(document).ready(function(){
   
-  $("img").draggable(); 
-  
   //Move the image to the finish line
   console.log("Top: " + $("img").position().top + " Left: " + $("img").position().left);
   $("img").draggable({
@@ -22,7 +20,12 @@ $(document).ready(function(){
       }
     } 
   }) 
-  
+
+  $("img").draggable({
+    containment: "#containment-wrapper", 
+    scroll: false
+  });
+
   //Double click to reload the page
   $("img").dblclick(function(){
     location.reload();

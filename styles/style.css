@@ -26,6 +26,7 @@ p{
 .instructions{
   font-family: 'Montserrat Alternates', sans-serif;
   font-weight: bold;
+  font-size: 30px;
   text-align: center;
 }
 
@@ -33,7 +34,6 @@ p{
   display: inline-block;
   font-family: 'Montserrat Alternates', sans-serif;
   font-weight: bold;
-  margin-left: 125px;
 }
 
 .finish{
